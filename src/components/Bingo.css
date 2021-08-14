@@ -1,0 +1,81 @@
+.container {
+}
+button {
+    margin-right: 3px;
+}
+.header {
+    display: flex;
+    background-color: rgb(178, 230, 191);
+    padding: 0.5em;
+    align-content: stretch;
+}
+
+.header-left {
+    display: flex;
+    flex-grow: 1;
+}
+
+.header-right {
+    display: flex;
+}
+
+.infoElement {
+    margin: 0 .2em;
+    padding: .5em;
+    position: relative;
+}
+.infoElement>.heading {
+    text-transform: uppercase;
+    font-size: .5em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bingoSet {
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 1em;
+    justify-content: left;
+}
+.bingoSet .row {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.bingoSet .item {
+    opacity: .1;
+}
+.bingoSet .item.done {
+    opacity: 1;
+}
+
+.numbers {
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 1em;
+    justify-content: left;
+}
+
+.item {
+    padding: 3px;
+    border-radius: 20px;
+    margin: 3px;
+    min-width: 2em;
+    font-weight: bold;
+}
+.item.B {
+    background: radial-gradient(circle, rgba(149, 183, 255, 0.993) 0%, rgb(26, 59, 168) 100%);
+}
+.item.I {
+    background: radial-gradient(circle, rgba(255, 156, 149, 0.993) 0%, rgb(168, 54, 26) 100%);
+}
+.item.N {
+    background: radial-gradient(circle, rgba(240, 242, 247, 0.993) 0%, rgb(165, 166, 168) 100%);
+}
+.item.G {
+    background: radial-gradient(circle, rgba(149,255,163,0.9934348739495799) 0%, rgba(28,168,26,1) 100%);
+}
+.item.O {
+    background: radial-gradient(circle, rgba(253, 255, 149, 0.993) 0%, rgb(168, 166, 26) 100%);
+}
